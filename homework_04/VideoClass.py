@@ -16,6 +16,6 @@ class Video(MediaFile):
     def show_type(self):
         print(self.filename, "- это видео!")
 
-    def extract_frame(self, second_from, secont_to):
+    def extract_frame(self, second_from, second_to):
         """Извлечь ролик"""
-        print(f"Извлекаю ролик с {second_from} по {secont_to}")
+        print(f"Извлекаю ролик с {second_from} по {second_to}")
